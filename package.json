@@ -1,0 +1,13 @@
+{
+  "name": "query-campus",
+  "version": "0.1.0",
+  "private": true,
+  "description": "로컬에서 개발하는 픽셀 SQL 학습 게임",
+  "scripts": {
+    "dev": "node scripts/dev.cjs",
+    "start": "node scripts/dev.cjs",
+    "test": "node verify.cjs && node verify-mobile.cjs && node verify-databases.cjs",
+    "check": "node --check src/app.js && node --check src/mobile.js && node --check src/databases.js && node --check scripts/dev.cjs"
+  },
+  "engines": { "node": ">=18" }
+}
